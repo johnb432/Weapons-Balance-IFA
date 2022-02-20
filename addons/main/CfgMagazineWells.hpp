@@ -1,4 +1,10 @@
 class CfgMagazineWells {
+    class CBA_145x114_PTRD {
+        WB_Magazines[] += {
+            "LIB_1Rnd_145x114"
+        };
+    };
+
     class CBA_3006_BAR {
         WB_Magazines[] += {
             "LIB_20Rnd_762x63",
@@ -236,6 +242,12 @@ class CfgMagazineWells {
     class CBA_9x19_Welrod {
         WB_Magazines[] += {
             "LIB_6Rnd_9x19_Welrod"
+        };
+    };
+
+    class CBA_Bazooka {
+        WB_Magazines[] += {
+            "LIB_1Rnd_60mm_M6"
         };
     };
 

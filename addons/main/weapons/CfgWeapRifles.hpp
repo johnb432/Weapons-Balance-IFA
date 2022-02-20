@@ -129,3 +129,7 @@ class LIB_SVT_40: LIB_RIFLE {
         mass = 85;
     };
 };
+
+class LIB_PTRD: LIB_RIFLE {
+    magazineWell[] += {"CBA_145x114_PTRD"};
+};

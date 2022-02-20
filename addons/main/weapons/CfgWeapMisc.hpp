@@ -72,3 +72,21 @@ class LIB_Welrod_mk1: LIB_PISTOL {
     displayName = "Welrod Mk.I";
     magazineWell[] += {"CBA_9x19_Welrod"};
 };
+
+class Launcher;
+class Launcher_Base_F: Launcher {
+    class WeaponSlotsInfo;
+};
+class LIB_LAUNCHER: Launcher_Base_F {
+    class WeaponSlotsInfo: WeaponSlotsInfo {};
+};
+class LIB_M1A1_Bazooka: LIB_LAUNCHER {
+    ace_reloadlaunchers_enabled = 1;
+    magazineWell[] += {"CBA_Bazooka"};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 127.5;
+    };
+};
+class LIB_PIAT: LIB_LAUNCHER {
+    displayName = "P.I.A.T.";
+};

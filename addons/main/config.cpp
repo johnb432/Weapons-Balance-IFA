@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "cba_main",
+            "ww2_assets_c_weapons_infantryweapons_c",
             "ww2_assets_t_weapons_flamethrowers_t",
             "ww2_assets_t_weapons_launchers_t",
             "ww2_assets_t_weapons_machinegun_heavy_t",
@@ -32,7 +32,7 @@ class CfgPatches {
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
     class Rifle_Long_Base_F: Rifle_Base_F {
         class WeaponSlotsInfo: WeaponSlotsInfo {};

@@ -1,5 +1,22 @@
+# Changelog for Weapons balance 20.2.2022
+
+1.0.0.1
+- Weapon changes:
+    - IFA:
+        - M1A1 Bazooka:
+            - Added CBA magwell for 60mm Bazooka rounds
+            - Changed weight from 6.00kg to 5.78kg
+        - PIAT (Launcher slot):
+            - CBA magwell for PIAT rounds can't be added due to oddity with Launcher
+            
+- MagazineWells:
+    - CBA:
+        - 60mm Bazooka
+            - Added 1x IFA 1Rnd
+
 # Changelog for Weapons balance 16.2.2022
 
+1.0.0.0
 - Weapon changes:
     - IFA:
         - Changed names to fit better
