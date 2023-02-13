@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 13.2.2023
+
+1.0.0.2
+- Removed mass that is displayed at the bottom of the inventory screen.
+
 # Changelog for Weapons balance 20.2.2022
 
 1.0.0.1
