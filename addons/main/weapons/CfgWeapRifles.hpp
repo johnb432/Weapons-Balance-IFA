@@ -1,5 +1,5 @@
 class LIB_RIFLE: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class LIB_DELISLE: LIB_RIFLE {
     ACE_barrelLength = 267;

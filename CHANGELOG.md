@@ -1,3 +1,9 @@
+# Changelog for Weapons balance 17.4.2024
+
+1.0.1.0
+- Balanced magazine weights.
+- Added latest HEMTT support.
+
 # Changelog for Weapons balance 13.2.2023
 
 1.0.0.2

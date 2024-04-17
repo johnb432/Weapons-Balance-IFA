@@ -19,24 +19,25 @@ class CfgPatches {
             "ww2_assets_t_weapons_weaponsmagazines_t"
         };
         author = "johnb43";
-        authors[] = {"johnb43"};
+        authors[] = {
+            "johnb43"
+        };
         url = "https://github.com/johnb432/Weapons-Balance-IFA";
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };
 
-#include "CfgEventHandlers.hpp"
+#include "CfgAmmoDef.hpp"
 #include "CfgAmmo.hpp"
-//#include "CfgMagazines.hpp"
+#include "CfgEventHandlers.hpp"
+#include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 
 class CfgWeapons {
-    class Rifle;
-    class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo;
-    };
+    class Rifle_Base_F;
     class Rifle_Long_Base_F: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
 
     #include "weapons\CfgWeapMG.hpp"

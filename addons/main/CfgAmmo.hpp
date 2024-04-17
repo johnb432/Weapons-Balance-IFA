@@ -97,7 +97,7 @@ class CfgAmmo {
         ACE_velocityBoundaries[] = {};
     };
 
-    class LIB_B_762x54_Ball: LIB_B_762x63_Ball { //B_762x54_Ball, https://en.wikipedia.org/wiki/7.62%C3%9754mmR, 240mm twist
+    class LIB_B_762x54_Ball: LIB_Bullet_base { //B_762x54_Ball, https://en.wikipedia.org/wiki/7.62%C3%9754mmR, 240mm twist
         ACE_ammoTempMuzzleVelocityShifts[] = {-26.55,-25.47,-22.85,-20.12,-16.98,-12.8,-7.64,-1.53,5.96,15.17,26.19};
         ACE_ballisticCoefficients[] = {0.4};
         ACE_barrelLengths[] = {406.4,508,604.5,736.6};

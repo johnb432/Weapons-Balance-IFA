@@ -1,5 +1,5 @@
 class LIB_SRIFLE: Rifle_Long_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class LIB_K98ZF39: LIB_SRIFLE {
     ACE_barrelLength = 600;
@@ -52,11 +52,11 @@ class LIB_Colt_M1911: LIB_PISTOL {
 class LIB_M1895: LIB_PISTOL {
     magazineWell[] += {"CBA_762x38R_Nagant"};
 };
-class LIB_P08: LIB_PISTOL {
-    magazineWell[] += {"CBA_9x19_P08"};
-};
 class LIB_P38: LIB_PISTOL {
     magazineWell[] += {"CBA_9x19_P38"};
+};
+class LIB_P08: LIB_P38 {
+    magazineWell[] = {"CBA_9x19_P08"};
 };
 class LIB_TT33: LIB_PISTOL {
     magazineWell[] += {"CBA_762x25_TT"};
@@ -73,12 +73,9 @@ class LIB_Welrod_mk1: LIB_PISTOL {
     magazineWell[] += {"CBA_9x19_Welrod"};
 };
 
-class Launcher;
-class Launcher_Base_F: Launcher {
-    class WeaponSlotsInfo;
-};
+class Launcher_Base_F;
 class LIB_LAUNCHER: Launcher_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class LIB_M1A1_Bazooka: LIB_LAUNCHER {
     ace_reloadlaunchers_enabled = 1;

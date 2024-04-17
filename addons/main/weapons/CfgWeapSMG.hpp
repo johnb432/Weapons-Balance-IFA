@@ -1,8 +1,6 @@
-class Rifle_Short_Base_F: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
+class Rifle_Short_Base_F;
 class LIB_SMG: Rifle_Short_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class LIB_M1A1_Thompson: LIB_SMG {
     ACE_barrelLength = 267;
@@ -54,12 +52,13 @@ class LIB_MP40: LIB_SMG {
 class LIB_PPSh41_m: LIB_SMG {
     ACE_barrelLength = 266;
     ACE_barrelTwist = 250;
+    magazineWell[] += {"CBA_762x25_PPSh_Drum", "CBA_762x25_PPSh_Stick"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 80;
     };
 };
 class LIB_PPSh41_d: LIB_PPSh41_m {
-    baseWeapon = "LIB_PPSh41_m";
+    scopeArsenal = 1;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 80;
     };

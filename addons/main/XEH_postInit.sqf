@@ -13,5 +13,5 @@ if (!hasInterface) exitWith {};
 
         (_inventoryCtrl displayCtrl 112) ctrlShow false; // Text in front of actual mass
         (_inventoryCtrl displayCtrl 113) ctrlShow false; // Display actual mass
-    }, nil] call CBA_fnc_waitUntilAndExecute;
+    }, nil, 3] call CBA_fnc_waitUntilAndExecute;
 }] call CBA_fnc_addClassEventHandler;

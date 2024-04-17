@@ -1,5 +1,5 @@
 class LIB_LMG: Rifle_Long_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class LIB_M1918A2_BAR: LIB_LMG {
     ACE_barrelLength = 610;
