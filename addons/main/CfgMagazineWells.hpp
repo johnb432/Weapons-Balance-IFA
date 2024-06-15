@@ -203,7 +203,9 @@ class CfgMagazineWells {
         MAGAZINE_WELL[] += {
             "LIB_50Rnd_792x57",
             "LIB_50Rnd_792x57_SMK",
-            "LIB_50Rnd_792x57_sS"
+            "LIB_50Rnd_792x57_sS",
+            "LIB_100Rnd_792x57",
+            "LIB_100Rnd_792x57_sS"
         };
     };
 

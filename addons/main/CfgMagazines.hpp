@@ -49,6 +49,14 @@ class CfgMagazines {
         //_MASS(AMMO792X57,50,RND50BELTMG);
         mass = 31;
     };
+    class LIB_100Rnd_792x57: LIB_50Rnd_792x57 {
+        mass = 48;
+    };
+
+    class LIB_50Rnd_792x57_sS;
+    class LIB_100Rnd_792x57_sS: LIB_50Rnd_792x57_sS {
+        mass = 48;
+    };
 
     class LIB_5Rnd_762x63: CA_Magazine {
         _MASS(AMMO3006,5,RNDCLIP);
